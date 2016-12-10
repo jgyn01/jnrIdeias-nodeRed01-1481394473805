@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jnrIdeias-nodeRed01
+  host: jnrIdeias-nodeRed01
+  disk_quota: 1024M
+  services:
+  - jnrIdeias-nodeRed01-cloudantNoSQLDB
+  - jnrIdeias-nodeRed01-iotf-service
+  - Language Translator-ji
